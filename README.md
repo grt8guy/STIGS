@@ -3,7 +3,7 @@ Created STIG checker to automate and speegup the "ATO" process for me
 
 # VMware PowerCLI is crucial - suggest updating to the latest version 
 # https://docs.vmware.com/en/VMware-PowerCLI/latest/powercli/GUID-3034A439-E9D7-4743-ABC0-EE38610E15F8.html
-
+# https://developer.broadcom.com/tools/vmware-powercli/latest/
 
 Plink is slao needed for this checker to work, as it is needed to validate the Linux \ Photon OS used by VMware
 # https://www.cog-genomics.org/plink2/
