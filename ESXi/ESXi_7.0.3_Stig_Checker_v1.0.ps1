@@ -3,7 +3,7 @@
 
 .SCOPE: VMware ESXi 7.0.3 {PowerCLI and Grep} STIG Compliancy Checker
 
-.AUTHOR: John W. Braunsdorf @ Leidos
+.AUTHOR: John W. Braunsdorf
         
 .DATE: 05/05/2021
 
@@ -130,7 +130,6 @@ function plink
 
   return
 }
-
 
 Start-Sleep 2
 
@@ -532,8 +531,6 @@ Write-Host "Vul ID: V-256448	   	Rule ID: SV-256448r886125_rule	   	STIG ID: ESX
 Get-VMHost | Get-VMHostService | Where {$_.Label -eq "CIM Server"} | Format-Table -AutoSize
 
 Start-Sleep 2
-
-
 
 #endregion
 
